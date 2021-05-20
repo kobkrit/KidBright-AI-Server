@@ -1,0 +1,3 @@
+0  totoro
+1  nekobus
+2  null

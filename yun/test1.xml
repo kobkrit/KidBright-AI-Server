@@ -1,0 +1,11 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="init_ros_node" id="6EeYr*,$4wSAD^XBC$Ha" x="271" y="116">
+    <next>
+      <block type="start_object_detector" id="|)gy6`~2^v4}.~TJnNt4">
+        <next>
+          <block type="rospy_loop" id="al,}Sf?M4Gt:1=tP+Mw8"/>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

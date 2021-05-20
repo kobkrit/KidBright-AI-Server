@@ -1,0 +1,66 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="D=MRN]|?gBjh4aHVde[[">class</variable>
+    <variable id="6dQm3pYKts)bnwPx)}Do">i</variable>
+  </variables>
+  <block type="init_ros_node" id="9!vo~0j,T$]rrep#n5Wx" x="16" y="-36">
+    <next>
+      <block type="start_image_classification" id="Pab2@PG/8Ho4gd_a|.Fc">
+        <next>
+          <block type="rospy_loop" id="T.N%GkvP?2ff.mk)aD0z">
+            <statement name="DO">
+              <block type="variables_set" id=".]^_uN75J=tH|z`sAd6;">
+                <field name="VAR" id="D=MRN]|?gBjh4aHVde[[">class</field>
+                <value name="VALUE">
+                  <block type="get_classes" id="7{k12SgPSizZEgy6P4/^"/>
+                </value>
+                <next>
+                  <block type="controls_forEach" id="R;kn(_?))(+$WW|q8gWz">
+                    <field name="VAR" id="6dQm3pYKts)bnwPx)}Do">i</field>
+                    <value name="LIST">
+                      <block type="variables_get" id="I{GK)kY#0$cy0mr5Wh7d">
+                        <field name="VAR" id="D=MRN]|?gBjh4aHVde[[">class</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="text_print" id="(UugHqh`hitH%bXmD%aH">
+                        <value name="TEXT">
+                          <block type="text" id="!.uF6ZQ-q_`4/4wd,L7J">
+                            <field name="TEXT">This image is </field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="text_print" id="fkT[$*wj#]G%t]{cV6ij">
+                            <value name="TEXT">
+                              <block type="get_object_attr" id="doEAb)pQKFpu4^x3?9z3">
+                                <field name="DATA_FIELD">label</field>
+                                <value name="VAR">
+                                  <block type="variables_get" id="Y5n{ntY5u`qdDAzJ+EG?">
+                                    <field name="VAR" id="6dQm3pYKts)bnwPx)}Do">i</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="delay" id="1_2T#y_w2}KjK!tsovmC">
+                                <value name="NAME">
+                                  <block type="math_number" id="q1T?SMt4@/t8O=v^4k:u">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

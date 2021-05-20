@@ -1,0 +1,8 @@
+{
+  "signal": "SIGTERM",
+  "events": {
+    "restart": "kill -9 $(lsof -t -i:3000)",
+    "crash": "kill -9 $(lsof -t -i:3000)"
+  },
+  "delay": "2000"
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="48" viewBox="0 0 125 48">
+  <defs>
+    <filter id="Rectangle_34" x="0" y="0" width="125" height="48" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_97" data-name="Group 97" transform="translate(-54 -166)">
+    <g transform="matrix(1, 0, 0, 1, 54, 166)" filter="url(#Rectangle_34)">
+      <rect id="Rectangle_34-2" data-name="Rectangle 34" width="107" height="30" rx="15" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <text id="NEW_LABEL" data-name="NEW LABEL" transform="translate(74 194)" fill="#06754b" font-size="11" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="0" y="0">NEW LABEL</tspan></text>
+    <text id="_" data-name="+" transform="translate(156 196)" fill="#007e4e" font-size="17" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="-4.956" y="0">+</tspan></text>
+  </g>
+</svg>

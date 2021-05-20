@@ -1,0 +1,3 @@
+print('pp')
+
+print(len(''))

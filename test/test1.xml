@@ -1,0 +1,28 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="init_ros_node" id="`j9A|Sp6qCzJxHL$YNCu" x="69" y="92">
+    <next>
+      <block type="start_image_classification" id="f859^p8xa`baR;x}aqq/">
+        <next>
+          <block type="rospy_loop" id="+C/A2M!YA+(GC(*sjx1?">
+            <statement name="DO">
+              <block type="text_print" id="H-*D.9O0cf~I3]eVl]le">
+                <value name="TEXT">
+                  <block type="get_classes" id="`GKg?R)A]X:1Y8V;Sip$"/>
+                </value>
+                <next>
+                  <block type="delay" id="#%;vFQ^xyL!g/p`A5UGk">
+                    <value name="NAME">
+                      <block type="math_number" id="TK+w|j2D_WqD[S]C_!9K">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,12 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="text_print" id="=NU(iV`GL~d`f]wigWsh" x="140" y="117">
+    <value name="TEXT">
+      <block type="text" id="*E|(RHw.8ekg.KP|G~+n">
+        <field name="TEXT">pp</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_length" id="X=#s|5;)zErVi1ztGY~r" x="323" y="159"></block>
+  <block type="text_print" id="FY[fRB.KM|}9}K]`,Q58" x="116" y="201"></block>
+  <block type="text_print" id="Q[MkZU4?a@ss?ltxvcx:" x="351" y="285"></block>
+</xml>

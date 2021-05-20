@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{bb51:function(n,t,e){"use strict";e.r(t);var a=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",{attrs:{id:"app"}},[e("Main",{attrs:{msg:"Welcome to Your Vue.js App"}})],1)},o=[],p=e("5456"),s={name:"app",components:{Main:p["a"]}},u=s,r=e("2877"),c=Object(r["a"])(u,a,o,!1,null,null,null);t["default"]=c.exports}}]);
+//# sourceMappingURL=about.02adda07.js.map

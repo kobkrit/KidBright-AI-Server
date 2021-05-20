@@ -1,0 +1,10 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="text_print" id="7-U)j|@k)Cf|K/-l,dP6" x="309" y="148">
+    <value name="TEXT">
+      <block type="text" id="g;jSJ@kv!lZ,LG[^ZD#N">
+        <field name="TEXT">55</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="B2:L8q,XtIgxrKeusMa3" x="299" y="279"></block>
+</xml>

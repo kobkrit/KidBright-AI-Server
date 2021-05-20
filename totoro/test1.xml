@@ -1,0 +1,26 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="init_ros_node" id="U1xGm4.RrtCsk}CE%[/e" x="264" y="116">
+    <next>
+      <block type="start_object_detector" id="4.60i*zXO]Mlzb|qg-@6">
+        <next>
+          <block type="controls_repeat_ext" id="Vgv3Cr6g6jYMq9mx,5(H">
+            <value name="TIMES">
+              <block type="math_number" id="xOF`ybQm}6X?IbNaCt`5">
+                <field name="NUM">20</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="text_print" id="qX0Y?8HE|0A*n3hf)vzV">
+                <value name="TEXT">
+                  <block type="text" id="{$j3cc^lOP3(9MUerC{a">
+                    <field name="TEXT">hello world</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126.831" height="127" viewBox="0 0 126.831 127">
+  <g id="Group_80" data-name="Group 80" transform="translate(-1010.081 -446.092)">
+    <g id="Group_79" data-name="Group 79" transform="translate(1010.081 446.092)">
+      <g id="Group_40" data-name="Group 40" transform="translate(0 0.189)">
+        <path id="Path_96" data-name="Path 96" d="M113.291,115.588c-19.433,15.864-80.112,15.864-99.149,0-19.433-15.864-17.45-83.681,0-101.528s81.7-17.847,99.149,0S132.724,99.725,113.291,115.588Z" transform="translate(-0.301 -0.675)" fill="#06754b"/>
+      </g>
+      <path id="Path_97" data-name="Path 97" d="M64.264,87.34c-17.45,13.881-36.883,21.02-55.127,21.416-13.484-23-10.708-78.922,5.156-95.183C28.57-1.1,73.385-3.876,99.164,5.245,105.509,31.421,92.422,64.734,64.264,87.34Z" transform="translate(-0.451 0)" fill="#007e4e"/>
+    </g>
+    <text id="Run" transform="translate(1070.993 544.092)" fill="#fff" font-size="22" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="-21.2" y="0">Run</tspan></text>
+    <g id="play" transform="translate(1060.26 474.925)">
+      <g id="Group_20" data-name="Group 20" transform="translate(0)">
+        <path id="Path_84" data-name="Path 84" d="M91.234,17.39,67.509,1.148A5.792,5.792,0,0,0,64.391,0C62.617,0,61.52,1.424,61.52,3.807v35.1c0,2.38,1.1,3.8,2.866,3.8a5.743,5.743,0,0,0,3.1-1.15L91.225,25.32A4.87,4.87,0,0,0,93.6,21.354,4.853,4.853,0,0,0,91.234,17.39Z" transform="translate(-61.52)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
